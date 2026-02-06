@@ -711,7 +711,7 @@ class _Connection:
 
                 if ctx is None:
                     logger.warning(
-                        "unexpected message received from elevenlabs tts", extra={"data": data},
+                        "unexpected message received from elevenlabs tts", extra={"data": data}
                     )
                     continue
 
